@@ -52,6 +52,9 @@ p { margin: 0; }
 .sep-line.line-left { margin-right: -65px; }
 .sep-line.line-right { margin-left: -65px; }
 
+.modal .close { color: red; opacity: 1; outline: none; }
+.modal .close:hover { opacity: 0.5; }
+
 .title-block { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: -ms-box; display: box; display: flexbox; display: flex; flex-direction: row; margin-bottom: 35px; }
 .title-block > div { flex: auto; }
 .title-block h2 { display: inline-block; margin-left: 20px; }
@@ -66,6 +69,14 @@ form .btn-orange { margin: 25px 0 10px; }
 .form-block form { padding: 50px 15px 10px; background: rgba(255, 255, 255, 0.85); -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; }
 .form-block form input { color: #a1a1a1; }
 .form-block form p { font-size: 16px; color: #303030; }
+
+.sign-list .sign-list-item { margin-bottom: 20px; }
+.sign-list .sign-list-item .question, .sign-list .sign-list-item .answer { margin-bottom: 25px; padding-left: 90px; font-size: 33px; position: relative; }
+.sign-list .sign-list-item .answer { font-size: 18px; line-height: 21px; }
+.sign-list .sign-list-item .answer p { padding-top: 10px; }
+.sign-list .sign-list-item .question:before, .sign-list .sign-list-item .answer:before { content: "?"; position: absolute; left: 15px; top: 0; border: 4px solid #ff2a00; border-radius: 50%; width: 45px; height: 45px; text-align: center; color: #ff2a00; font-size: 35px; line-height: 35px; font-family: "Arial"; }
+.sign-list .sign-list-item .answer:before { content: "!"; border: 4px solid #8dc540; color: #8dc540; }
+.sign-list .sign-list-item hr { border-top: 1px solid #c8c8c8; width: 70%; margin-top: 34px; }
 
 body { font-size: 14px; color: #434442; font-family: "helveticaneuecyr-light"; font-size: 16px; position: relative; background: url("../img/pattern-1.jpg"); }
 body .container { width: 990px; max-width: 990px; min-width: 990px; }
@@ -107,13 +118,6 @@ body section { margin-bottom: 50px; }
 .faq .title-block { margin-bottom: 30px; }
 .faq .title-block img { margin-bottom: 20px; }
 .faq .title-block .sep-line hr { margin-top: 25px; }
-.faq .faq-item { margin-bottom: 20px; }
-.faq .faq-item .question, .faq .faq-item .answer { margin-bottom: 25px; padding-left: 90px; font-size: 33px; position: relative; }
-.faq .faq-item .answer { font-size: 18px; line-height: 21px; }
-.faq .faq-item .answer p { padding-top: 10px; }
-.faq .faq-item .question:before, .faq .faq-item .answer:before { content: "?"; position: absolute; left: 15px; top: 0; border: 4px solid #ff2a00; border-radius: 50%; width: 45px; height: 45px; text-align: center; color: #ff2a00; font-size: 35px; line-height: 35px; font-family: "Arial"; }
-.faq .faq-item .answer:before { content: "!"; border: 4px solid #8dc540; color: #8dc540; }
-.faq .faq-item hr { border-top: 1px solid #c8c8c8; width: 70%; margin-top: 34px; }
 
 .request { background: url("../img/pattern-2.jpg"); padding: 35px 0; margin-bottom: 65px; }
 .request h3 { color: white; margin-bottom: 32px; }
@@ -129,9 +133,27 @@ body section { margin-bottom: 50px; }
 .map { margin-bottom: 0; position: relative; }
 .map .form-wrap { position: absolute; top: 77px; width: 100%; }
 .map .form-block { width: 400px; float: right; }
-.map .form-block form { background: rgba(242, 241, 238, 0.85); padding: 105px 25px 20px; }
+.map .form-block form { background: rgba(242, 241, 238, 0.9); padding: 105px 25px 20px; }
 .map .form-block form label { margin: 0 0 7px !important; }
 .map .form-block form .form-group { margin-bottom: 15px !important; }
+
+.modal-thanks .modal-dialog { margin-top: 200px; }
+.modal-thanks .modal-dialog .modal-content { background: url("../img/pattern-1.jpg"); }
+.modal-thanks .modal-dialog .modal-content .modal-header { border-bottom: none; color: #77a736; padding-bottom: 0; }
+.modal-thanks .modal-dialog .modal-content p { font-size: 26px; }
+
+.modal-agreement .modal-dialog { width: 820px; }
+.modal-agreement .modal-dialog .modal-header { border-bottom: none; color: #77a736; padding: 12px 30px; }
+.modal-agreement .modal-dialog .modal-header h4 { margin-top: 20px; }
+.modal-agreement .modal-dialog .modal-body { padding: 20px 30px; }
+.modal-agreement .modal-dialog .modal-body .sign-list .sign-list-item .question, .modal-agreement .modal-dialog .modal-body .sign-list .sign-list-item .answer { font-size: 21px; padding-left: 50px; margin-bottom: 15px; }
+.modal-agreement .modal-dialog .modal-body .sign-list .sign-list-item .answer { font-size: 16px; }
+.modal-agreement .modal-dialog .modal-body .sign-list .sign-list-item .question:before, .modal-agreement .modal-dialog .modal-body .sign-list .sign-list-item .answer:before { border-width: 3px; width: 30px; height: 30px; font-size: 20px; line-height: 24px; }
+.modal-agreement .modal-dialog .modal-body .agreement { position: relative; padding-left: 50px; }
+.modal-agreement .modal-dialog .modal-body .agreement h5 { color: #77a736; margin-bottom: 20px; }
+.modal-agreement .modal-dialog .modal-body .agreement .agreement-text { height: 300px; overflow-y: scroll; padding-right: 10px; margin-bottom: 40px; }
+.modal-agreement .modal-dialog .modal-body .agreement a { font-size: 14px; text-decoration: underline; }
+.modal-agreement .modal-dialog .modal-body .agreement button { position: absolute; bottom: 0; right: 0; }
 
 .footer { padding: 35px 0; }
 .footer p { font-size: 14px; }
