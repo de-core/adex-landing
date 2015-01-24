@@ -61,6 +61,12 @@ form .form-group { margin-bottom: 10px !important; }
 form .form-group input { font-family: "helveticaneuecyr-lightitalic"; font-size: 17px !important; height: 37px; }
 form .btn-orange { margin: 25px 0 10px; }
 
+.form-block { position: relative; }
+.form-block .form-legend { position: absolute; background: white; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 1px 4px #777777; -moz-box-shadow: 0 1px 4px #777777; box-shadow: 0 1px 4px #777777; margin-bottom: 0; height: auto; padding: 10px 20px; opacity: 1; z-index: 10; font-size: 23px; }
+.form-block form { padding: 50px 15px 10px; background: rgba(255, 255, 255, 0.85); -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; }
+.form-block form input { color: #a1a1a1; }
+.form-block form p { font-size: 16px; color: #303030; }
+
 body { font-size: 14px; color: #434442; font-family: "helveticaneuecyr-light"; font-size: 16px; position: relative; background: url("../img/pattern-1.jpg"); }
 body .container { width: 990px; max-width: 990px; min-width: 990px; }
 body section { margin-bottom: 50px; }
@@ -78,11 +84,7 @@ body section { margin-bottom: 50px; }
 .header .header-inner h1 { margin-top: 35px; }
 .header .header-inner h1 span { padding: 0 5px; }
 .header .header-inner h1 .one-line { background: white; opacity: 0.9; display: inline-block; margin: 4px 0; }
-.header .header-inner .form-block { position: relative; }
-.header .header-inner .form-block .form-legend { position: absolute; background: white; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 1px 4px #777777; -moz-box-shadow: 0 1px 4px #777777; box-shadow: 0 1px 4px #777777; margin-bottom: 0; top: -55px; height: auto; padding: 10px 20px; opacity: 1; z-index: 10; font-size: 23px; }
-.header .header-inner .form-block form { padding: 50px 15px 10px; background: rgba(255, 255, 255, 0.85); -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; }
-.header .header-inner .form-block form input { color: #a1a1a1; }
-.header .header-inner .form-block form p { font-size: 16px; color: #303030; }
+.header .header-inner h1 .form-legend { background: white; top: -55px; }
 
 .services { margin-bottom: 70px; }
 .services .img-wrap { height: 160px; }
@@ -124,7 +126,12 @@ body section { margin-bottom: 50px; }
 .garanties .img-wrap img { vertical-align: bottom; }
 .garanties h6 { color: #5d8427; height: 50px; font-family: "helveticaneuecyr-medium"; }
 
-.map { margin-bottom: 0; }
+.map { margin-bottom: 0; position: relative; }
+.map .form-wrap { position: absolute; top: 77px; width: 100%; }
+.map .form-block { width: 400px; float: right; }
+.map .form-block form { background: rgba(242, 241, 238, 0.85); padding: 105px 25px 20px; }
+.map .form-block form label { margin: 0 0 7px !important; }
+.map .form-block form .form-group { margin-bottom: 15px !important; }
 
-.footer { padding: 20px 0; }
+.footer { padding: 35px 0; }
 .footer p { font-size: 14px; }
