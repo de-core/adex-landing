@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Abel-Regular';
+  src: url('../fonts/abel/Abel-Regular.eot');
+  src: url('../fonts/abel/Abel-Regular.woff') format('woff'),
+       url('../fonts/abel/Abel-Regular.ttf') format('truetype')
+       
+}
+
+.fontpro,.fontpro-35334 {
+  font-family: 'Abel-Regular',sans-serif;
+}
