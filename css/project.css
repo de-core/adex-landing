@@ -86,10 +86,11 @@ body { font-size: 14px; color: #434442; font-family: "helveticaneuecyr-light"; f
 body .container { width: 990px !important; min-width: 990px !important; max-width: 990px !important; }
 body section { margin-bottom: 50px; }
 
-.no-flexbox .sep-line { display: none; }
 .no-flexbox .reviews .reviews-row { display: block; }
 .no-flexbox .reviews .reviews-row .review-body { width: 100%; }
 .no-flexbox .reviews .reviews-row .review-body + .review-body { margin-left: 0; }
+
+.mo-flexbox .sep-line, .no-flexboxlegacy .sep-line { display: none; }
 
 .header { background: url("../img/main.jpg") no-repeat; background-position-x: center; min-height: 745px; margin-bottom: 30px; }
 .header .fixed-header { padding: 23px 0; z-index: 1000; width: 100%; background: rgba(255, 255, 255, 0.8); color: #181818; }
