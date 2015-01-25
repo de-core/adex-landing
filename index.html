@@ -8,10 +8,7 @@
     <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="css/normalize.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="css/bootstrap/bootstrap.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="js/vendor/footable/css/footable.core.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="js/vendor/datepicker/datepicker.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="js/vendor/selectbox/selectbox.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="js/vendor/fotorama/fotorama.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="css/project.css" media="screen" rel="stylesheet" type="text/css" /><script src="js/html5shiv.js" type="text/javascript"></script><!--[if lt IE 9]><script src="js/html5shiv.js" type="text/javascript"></script><script src="js/respond.min.js"></script><style type="text/css">
     <div class="gradient" filter:="" none=""></div>
     </style><![endif]-->
@@ -51,28 +48,28 @@
                 <form class="form-horizontal">
                   <div class="input-range-group">
                     <div class="form-group">
-                      <label class="col-xs-6" for="book-date-in">Дата вылета</label>
+                      <label class="col-xs-6" for="date-in-form1">Дата вылета</label>
                       <div class="col-xs-6">
-                        <input class="form-control date-in" id="book-date-in" name="book-date-in" type="text" />
+                        <input class="form-control date-in" id="date-in-form1" name="date-in-form1" type="text" />
                       </div>
                     </div>
                     <div class="form-group">
-                      <label class="col-xs-6" for="book-date-out">Дата возвращения</label>
+                      <label class="col-xs-6" for="date-out-form1">Дата возвращения</label>
                       <div class="col-xs-6">
-                        <input class="form-control date-out" id="book-date-out" name="book-date-out" type="text" />
+                        <input class="form-control date-out" id="date-out-form1" name="date-out-form1" type="text" />
                       </div>
                     </div>
                   </div>
                   <div class="form-group">
-                    <label class="col-xs-6" for="name">Введите имя</label>
+                    <label class="col-xs-6" for="name-form1">Введите имя</label>
                     <div class="col-xs-6">
-                      <input class="form-control" id="name" name="name" />
+                      <input class="form-control" id="name-form1" name="name-form1" />
                     </div>
                   </div>
                   <div class="form-group">
-                    <label class="col-xs-6" for="phone">Введите телефон</label>
+                    <label class="col-xs-6" for="phone-form1">Введите телефон</label>
                     <div class="col-xs-6">
-                      <input class="form-control" id="phone" name="phone" />
+                      <input class="form-control" data-input="mobile" id="phone-form1" name="phone-form1" />
                     </div>
                   </div>
                   <button class="btn btn-block btn-orange" type="submit">Подобрать лучшие туры</button>
@@ -213,7 +210,7 @@
         </div>
       </div>
     </div>
-    <button class="btn btn-green">Посмотреть еще отзывы</button>
+    <button class="btn btn-green" type="button">Посмотреть еще отзывы</button>
   </div>
 </section><section class="faq">
   <div class="container">
@@ -298,28 +295,28 @@
       <form class="form-horizontal">
         <div class="input-range-group">
           <div class="form-group">
-            <label class="col-xs-6" for="book-date-in">Дата вылета</label>
+            <label class="col-xs-6" for="date-in-form2">Дата вылета</label>
             <div class="col-xs-6">
-              <input class="form-control date-in" id="book-date-in" name="book-date-in" type="text" />
+              <input class="form-control date-in" id="date-in-form2" name="date-in-form2" type="text" />
             </div>
           </div>
           <div class="form-group">
-            <label class="col-xs-6" for="book-date-out">Дата возвращения</label>
+            <label class="col-xs-6" for="date-out-form2">Дата возвращения</label>
             <div class="col-xs-6">
-              <input class="form-control date-out" id="book-date-out" name="book-date-out" type="text" />
+              <input class="form-control date-out" id="date-out-form2" name="date-out-form2" type="text" />
             </div>
           </div>
         </div>
         <div class="form-group">
-          <label class="col-xs-6" for="name">Введите имя</label>
+          <label class="col-xs-6" for="name-form2">Введите имя</label>
           <div class="col-xs-6">
-            <input class="form-control" id="name" name="name" />
+            <input class="form-control" id="name-form2" name="name-form2" />
           </div>
         </div>
         <div class="form-group">
-          <label class="col-xs-6" for="phone">Введите телефон</label>
+          <label class="col-xs-6" for="phone-form2">Введите телефон</label>
           <div class="col-xs-6">
-            <input class="form-control" id="phone" name="phone" />
+            <input class="form-control" data-input="mobile" id="phone-form2" name="phone-form2" />
           </div>
         </div>
         <button class="btn btn-block btn-orange" type="submit">Подобрать лучшие туры</button>
@@ -402,10 +399,10 @@
         </div>
         <form class="form">
           <div class="form-group">
-            <label for="name">Ваше имя</label><input class="form-control" id="name" name="name" type="text" />
+            <label for="name-form3">Ваше имя</label><input class="form-control" id="name-form3" name="name-form3" type="text" />
           </div>
           <div class="form-group">
-            <label for="email">Электронная почта</label><input class="form-control" id="email" name="email" type="email" />
+            <label for="email-form3">Электронная почта</label><input class="form-control" id="email-form3" name="email-form3" type="email" />
           </div>
           <div class="form-group">
             <label for="message">Сообщение</label><textarea class="form-control" id="message" name="message" rows="4" type="text"></textarea>
@@ -472,7 +469,7 @@
               Настоящим я предоставляю согласие на обработку ООО «Тур-Холдинг», ИНН 7705542213, ОГРН 1137746501420, юр. адрес: 115114, г. г. Москва, Кожевнический проезд, д.3 моих персональных данных и подтверждаю, что давая такое согласие, я действую своей волей и в своем интересе. В соответствии с ФЗ от 27.07.2006 г. № 152-ФЗ «О персональных данных» я согласен предоставить информацию, относящуюся к моей личности: мои фамилия, имя, отчество, адрес проживания, должность, контактный телефон, электронный адрес. Либо, если я являюсь законным представителем юридического лица, я согласен предоставить информацию, относящуюся к реквизитам юридического лица: наименование, юридический адрес, виды деятельности, наименование и ФИО исполнительного органа. В случае предоставления персональных данных третьих лиц, я подтверждаю, что мною получено согласие третьих лиц, в интересах которых я действую, на обработку их персональных данных, в том числе: сбор, систематизация, накопление, хранение, уточнение (обновление или изменение)
             </p>
           </div>
-          <a href="" target="blank">Ознакомиться с законом на официальном сайте призедента РФ</a><button class="btn pull-right" type="button">Согласен</button>
+          <a href="" target="blank">Ознакомиться с законом на официальном сайте призедента РФ</a><button class="btn pull-right btn-grey" type="button">Согласен</button>
         </div>
       </div>
     </div>
@@ -486,9 +483,8 @@
     <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
     <script src="js/modernizr.custom.30742.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="js/vendor/footable/js/footable.js" type="text/javascript"></script>
-    <script src="js/vendor/footable/js/footable.filter.js" type="text/javascript"></script>
-    <script src="js/vendor/selectbox/jquery.selectbox.js" type="text/javascript"></script>
+    <script src="js/vendor/inputmask/jquery.inputmask.js" type="text/javascript"></script>
+    <script src="js/vendor/inputmask/ext/jquery.inputmask.numeric.extensions.js" type="text/javascript"></script>
     <script src="js/vendor/datepicker/bootstrap-datepicker.js" type="text/javascript"></script>
     <script src="js/vendor/datepicker/bootstrap-datepicker.ru.js" type="text/javascript"></script>
     <script src="js/all.js" type="text/javascript"></script>

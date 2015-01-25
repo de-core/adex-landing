@@ -71,14 +71,15 @@ $('.input-range-group').each(function(){
 //   format: 'dd/mm/yyyy',
 //   orientation: 'top left'
 // });
-
+// Inputmask
+  $('input[data-input="mobile"]').inputmask("+9(999)999-99-99");
 
 // Footable
-  $('.footable').footable({
-    breakpoints: {
-      tablet: 600
-    }
-  });
+  // $('.footable').footable({
+  //   breakpoints: {
+  //     tablet: 600
+  //   }
+  // });
 
 // Contacts show and hide
   // $('.contacts-link').click(function(){
