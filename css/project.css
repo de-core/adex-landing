@@ -69,7 +69,7 @@ form .form-group input { font-family: "helveticaneuecyr-lightitalic"; font-size:
 form .btn-orange { margin: 25px 0 10px; }
 
 .form-block { position: relative; }
-.form-block .form-legend { position: absolute; background: white; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 1px 4px #777777; -moz-box-shadow: 0 1px 4px #777777; box-shadow: 0 1px 4px #777777; margin-bottom: 0; height: auto; padding: 10px 20px; opacity: 1; z-index: 10; font-size: 23px; }
+.form-block .form-legend { position: absolute; background: white; -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 1px 4px #777777; -moz-box-shadow: 0 1px 4px #777777; box-shadow: 0 1px 4px #777777; margin-bottom: 0; height: auto; padding: 10px 20px; opacity: 1; z-index: 10; font-size: 23px; letter-spacing: -1px; }
 .form-block form { padding: 50px 15px 10px; background: rgba(255, 255, 255, 0.85); -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; }
 .form-block form input { color: #a1a1a1; }
 .form-block form p { font-size: 16px; color: #303030; }
@@ -97,8 +97,8 @@ body section { margin-bottom: 50px; }
 .header .fixed-header .contacts { margin-top: 15px; }
 .header .header-inner { margin-top: 145px; }
 .header .header-inner h1 { margin-top: 35px; }
-.header .header-inner h1 span { padding: 0 5px; }
-.header .header-inner h1 .one-line { background: white; opacity: 0.9; display: inline-block; margin: 4px 0; }
+.header .header-inner h1 span { padding: 0 5px; display: inline-block; margin: 4px 0; }
+.header .header-inner h1 .one-line { background: white; opacity: 0.9; }
 .header .header-inner .form-legend { background: white; bottom: 93%; }
 
 .services { margin-bottom: 70px; }
@@ -123,7 +123,7 @@ body section { margin-bottom: 50px; }
 .faq .title-block .sep-line hr { margin-top: 25px; }
 
 .request { background: url("../img/pattern-2.jpg"); padding: 35px 0; margin-bottom: 65px; }
-.request h3 { color: white; margin-bottom: 32px; }
+.request h3 { color: white; margin-bottom: 32px; letter-spacing: -1px; }
 .request .form-place { width: 350px; margin: 0 auto; }
 .request .form-place form label { color: white; }
 .request .form-place form p { font-size: 16px; color: white; }
