@@ -60,7 +60,7 @@ h6 { font-size: 19px; }
 .modal .close:hover { opacity: 0.5; }
 
 .title-block { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: -ms-box; display: box; display: flexbox; display: flex; flex-direction: row; margin-bottom: 35px; }
-.title-block > div { flex: auto; }
+.title-block > div { -webkit-flex: auto; -webkit-box-flex: auto; -ms-flex: auto; flex: auto; }
 .title-block h2 { display: inline-block; margin-left: 20px; }
 
 form label { margin: 10px 0 0; font-family: "helveticaneuecyr-roman"; }
@@ -89,8 +89,7 @@ body section { margin-bottom: 50px; }
 .no-flexbox .reviews .reviews-row { display: block; }
 .no-flexbox .reviews .reviews-row .review-body { width: 100%; }
 .no-flexbox .reviews .reviews-row .review-body + .review-body { margin-left: 0; }
-
-.mo-flexbox .sep-line, .no-flexboxlegacy .sep-line { display: none; }
+.no-flexbox .sep-line { display: none; }
 
 .header { background: url("../img/main.jpg") no-repeat; background-position-x: center; min-height: 745px; margin-bottom: 30px; }
 .header .fixed-header { padding: 23px 0; z-index: 1000; width: 100%; background: rgba(255, 255, 255, 0.8); color: #181818; }
