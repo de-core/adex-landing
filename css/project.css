@@ -135,7 +135,7 @@ body section { margin-bottom: 50px; }
 
 .map { margin-bottom: 0; position: relative; }
 .map .form-block { position: absolute; top: 77px; left: 50%; margin-left: 80px; width: 400px; }
-.map .form-block form { background: rgba(242, 241, 238, 0.9); padding: 105px 25px 20px; }
+.map .form-block form { background: rgba(242, 241, 238, 0.9); -webkit-box-shadow: 0 1px 5px #999999; -moz-box-shadow: 0 1px 5px #999999; box-shadow: 0 1px 5px #999999; padding: 105px 25px 20px; }
 .map .form-block form label { margin: 0 0 7px !important; }
 .map .form-block form .form-group { margin-bottom: 15px !important; }
 
