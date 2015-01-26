@@ -134,8 +134,7 @@ body section { margin-bottom: 50px; }
 .garanties h6 { color: #5d8427; height: 50px; font-family: "helveticaneuecyr-medium"; }
 
 .map { margin-bottom: 0; position: relative; }
-.map .form-wrap { position: absolute; top: 77px; width: 100%; }
-.map .form-block { width: 400px; float: right; }
+.map .form-block { position: absolute; top: 77px; left: 50%; margin-left: 80px; width: 400px; }
 .map .form-block form { background: rgba(242, 241, 238, 0.9); padding: 105px 25px 20px; }
 .map .form-block form label { margin: 0 0 7px !important; }
 .map .form-block form .form-group { margin-bottom: 15px !important; }
