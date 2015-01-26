@@ -117,6 +117,7 @@ body section { margin-bottom: 50px; }
 .reviews .reviews-row .review-body .review-details .name { font-size: 20px; color: #77a736; margin: 20px 0 10px; font-family: "helveticaneuecyr-roman"; }
 .reviews .reviews-row .review-body .review-details .tour { color: #6e6e6e; }
 .reviews .reviews-row .review-body .review-details .author-link { font-size: 14px; display: block; line-height: 15px; }
+.reviews .reviews-row.reviews-hidden { transition: all 0.5s ease-out; }
 
 .faq .title-block { margin-bottom: 30px; }
 .faq .title-block img { margin-bottom: 20px; }

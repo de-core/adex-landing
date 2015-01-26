@@ -209,8 +209,88 @@
           </div>
         </div>
       </div>
+      <div class="reviews-row reviews-hidden hidden">
+        <div class="review-body">
+          <p>
+            Огромное вам спасибо за классный отдых в Мармарисе (отель Мунамар резидент), отель очень хороший. Отдельное спасибо Николаевой Ольге, Натаровой Дарье, Анне, за ваше трепетное отношение, за ваше терпение. Так же ездили в Египет Хургада Роял Азур, то же все было супер, а родители ездили зимой в Таиланд и опять все было на высшем уровне!!!! СПАСИБО!!!!!! Жду девочки от вас дисконтную карту :) кот. вы обещали выслать по почте :)
+          </p>
+          <div class="review-details">
+            <div class="details-wrap">
+              <p class="name text-right">
+                Анна
+              </p>
+              <p class="tour">
+                Нидерланды 11 дней
+              </p>
+              <a class="author-link" href="">http://vk.com/id3916361</a>
+            </div>
+            <div class="img-wrap">
+              <img src="img/photo1.jpg" />
+            </div>
+          </div>
+        </div>
+        <div class="review-body">
+          <p>
+            Благодарю команду 1001 тур за профессиональный квалифицированный подбор тура и отеля. В последние минуты принимаемого решения между Вашей и компанией-конкурента Инесса предложила нам лучшее предложение для поездки в Таиланд, город Паттайя. Всем советую отель Ravindra hotel resort&spa 4, настоящее уединение с природой, сказочная и романтическая обстановка в номере, шикарный вид на внутренний двор с бассейном и потрясающий обслуживающий персонал. Мы остались безумно довольны и счастливы нашей поездкой. Мы влюбились в этот город. Спасибо огромное за предоставленные эмоции!!
+          </p>
+          <div class="review-details">
+            <div class="details-wrap">
+              <p class="name text-right">
+                Dmitryi Frolkov
+              </p>
+              <p class="tour">
+                Нидерланды 11 дней
+              </p>
+              <a class="author-link" href="">http://vk.com/id3916361</a>
+            </div>
+            <div class="img-wrap">
+              <img src="img/photo2.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reviews-row reviews-hidden hidden">
+        <div class="review-body">
+          <p>
+            Огромное вам спасибо за классный отдых в Мармарисе (отель Мунамар резидент), отель очень хороший. Отдельное спасибо Николаевой Ольге, Натаровой Дарье, Анне, за ваше трепетное отношение, за ваше терпение. Так же ездили в Египет Хургада Роял Азур, то же все было супер, а родители ездили зимой в Таиланд и опять все было на высшем уровне!!!! СПАСИБО!!!!!! Жду девочки от вас дисконтную карту :) кот. вы обещали выслать по почте :)
+          </p>
+          <div class="review-details">
+            <div class="details-wrap">
+              <p class="name text-right">
+                Анна
+              </p>
+              <p class="tour">
+                Нидерланды 11 дней
+              </p>
+              <a class="author-link" href="">http://vk.com/id3916361</a>
+            </div>
+            <div class="img-wrap">
+              <img src="img/photo1.jpg" />
+            </div>
+          </div>
+        </div>
+        <div class="review-body">
+          <p>
+            Благодарю команду 1001 тур за профессиональный квалифицированный подбор тура и отеля. В последние минуты принимаемого решения между Вашей и компанией-конкурента Инесса предложила нам лучшее предложение для поездки в Таиланд, город Паттайя. Всем советую отель Ravindra hotel resort&spa 4, настоящее уединение с природой, сказочная и романтическая обстановка в номере, шикарный вид на внутренний двор с бассейном и потрясающий обслуживающий персонал. Мы остались безумно довольны и счастливы нашей поездкой. Мы влюбились в этот город. Спасибо огромное за предоставленные эмоции!!
+          </p>
+          <div class="review-details">
+            <div class="details-wrap">
+              <p class="name text-right">
+                Dmitryi Frolkov
+              </p>
+              <p class="tour">
+                Нидерланды 11 дней
+              </p>
+              <a class="author-link" href="">http://vk.com/id3916361</a>
+            </div>
+            <div class="img-wrap">
+              <img src="img/photo2.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <button class="btn btn-green" type="button">Посмотреть еще отзывы</button>
+    <button class="btn btn-green reviews-open" type="button">Посмотреть еще отзывы</button>
   </div>
 </section><section class="faq">
   <div class="container">
@@ -390,7 +470,7 @@
     </div>
   </div>
 </section><section class="map">
-  <script charset="utf-8" src="http://api-maps.yandex.ru/services/constructor/1.0/js/?sid=ENt2tI2EK11tH_RsiNzSq1EEfLqrdMzm&width=100%&height=640" type="text/javascript"></script>
+  <div id="map" style="width: 100%; height: 640px"></div>
   <div class="form-block">
     <div class="form-legend pt-sans black-text text-center">
       <strong>Остались вопросы? Спрашивайте! Или звоните <span class="orange-text">+7 (495) 790-40-65</span></strong>
@@ -476,6 +556,7 @@
         При нажатии на кнопку "Получить лучшие предложения" и "Задать вопрос сейчас" Вы соглашаетесь с <a data-target="#modal-agreement" data-toggle="modal" href="">"Соглашением на обработку персональных данных"</a>
       </p>
     </footer>
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
     <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
     <script src="js/modernizr.custom.30742.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
