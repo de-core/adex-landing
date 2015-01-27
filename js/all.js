@@ -19,11 +19,7 @@ $(document).ready(function(){
 $('.input-range-group').each(function(){
   var start = $(this).find('.date-in');
   var end = $(this).find('.date-out');
-  // var newDate = new Date();
-  // var d = newDate.getDate(newDate);
-  // var m = newDate.getMonth(newDate);
-  // var y = newDate.getFullYear(newDate);
-  // $(this).find('.date-in, .date-out').attr('placeholder', d+'.'+ m+1 +'.'+  y)
+
   $(this).datepicker({
     startDate: Date(),
     language:'ru',
@@ -53,5 +49,6 @@ $('.input-range-group').each(function(){
     myMap.geoObjects.add(myPlacemark);
     myMap.behaviors.disable('scrollZoom');
     myMap.behaviors.disable('multiTouch');
+    
   }
 });
